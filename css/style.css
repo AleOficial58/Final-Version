@@ -1,0 +1,1631 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,300;0,600;0,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Skranji:wght@700 & display=swap");
+
+h1 {
+  text-decoration: none !important;
+  color: red;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 16px !important;
+  /* padding: 0 5px 0px 20px; */
+}
+
+.Titulo {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*-----HEADER------*/
+header {
+  background-color: rgba(92, 92, 92, 0.658);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  z-index: 99;
+}
+
+header a h1 span {
+  color: white;
+}
+
+header nav ul li {
+  margin: 10px;
+}
+
+header nav ul {
+  display: flex;
+  margin: 5px 10px 5px 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.titulo li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  transition: 0.5s;
+}
+
+header nav ul a:hover {
+  color: red;
+}
+
+.titulo2 {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
+
+a:visited {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+.titulo h1 {
+  color: yellow;
+}
+
+.CONTACTANOS {
+  text-align: center;
+  display: flex;
+  margin-top: 120px;
+}
+
+.formularios-gestion {
+  display: flex;
+  margin-top: 270px;
+  margin-left: -760px;
+}
+
+.nombre-1 {
+  color: #07f9a2;
+  margin-top: -30px;
+  background-color: rgba(92, 92, 92, 0.658);
+}
+
+.nombre-2 {
+  color: #07f9a2;
+  background-color: rgba(92, 92, 92, 0.658);
+}
+
+.nombre-3 {
+  color: #07f9a2;
+  background-color: rgba(92, 92, 92, 0.658);
+}
+
+.general {
+  color: #07f9a2;
+  background-color: rgba(92, 92, 92, 0.658);
+}
+
+.genero {
+  color: greenyellow;
+  margin-top: 20px;
+  background-color: rgba(92, 92, 92, 0.658);
+}
+
+.contanos-mas {
+  color: greenyellow;
+  margin-top: 20px;
+  background-color: rgba(92, 92, 92, 0.658);
+}
+
+.seleccion {
+  background-color: rgba(92, 92, 92, 0.658);
+}
+
+.h3 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.area34 {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 130px;
+}
+
+.juegos a {
+  background-color: red;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 5%;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.publicidad {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+  position: relative;
+  left: -150px;
+  text-align: center;
+  margin-top: -300px;
+}
+
+.column {
+  height: 220px;
+  margin: 2rem auto;
+  text-align: center;
+  width: 300px;
+}
+
+.parrafo4 {
+  margin: 0;
+  padding: 0 1rem;
+}
+/*-----PRODUCTOS GENERALES-----*/
+
+.juegos h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+
+.juegos h3 {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  background-color: rgba(92, 92, 92, 0.658);
+}
+
+.juegos a {
+  display: flex;
+  margin-top: 50px;
+}
+
+.juegos p {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: greenyellow;
+  background-color: rgba(92, 92, 92, 0.658);
+}
+
+/* GRIDS */
+
+.header-grid {
+  display: grid;
+  grid-row-gap: -20px;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.texto img {
+  display: flex;
+  justify-content: center;
+  margin-left: 800px;
+  border-radius: 30px;
+}
+
+.texto div {
+  display: flex;
+  justify-content: center;
+  margin-left: -2000px;
+  margin-top: -200px;
+}
+
+.texto p {
+  display: flex;
+  justify-content: center;
+  margin-top: -150px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.texto p {
+  display: grid;
+  grid-row-gap: -20px;
+  grid-column-gap: 20px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-left: 400px;
+  display: grid;
+  grid-template-columns: repeat(20, 8fr);
+}
+
+.negro {
+  background-color: black;
+  padding: 0px;
+  width: 100px;
+  height: 100%;
+}
+/*------MAIN------*/
+
+.hero h2 {
+  text-decoration: none;
+  color: #c0c0c0;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 60px;
+  font-family: sans-serif;
+  margin-top: 0.2em;
+}
+
+.hero {
+  width: 100%;
+  height: 65vh;
+  background-image: url(../img/fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero H3 {
+  color: #07f9a2;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: 2px solid blueviolet;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 1.2em;
+}
+
+.hero a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 4px solid greenyellow;
+  border-radius: 20px;
+  margin-top: 1.2em;
+}
+
+.hero p {
+  margin-bottom: 20px;
+  color: lawngreen;
+}
+
+.CONTACTANOS {
+  color: white;
+  font-size: 25px;
+  height: 120vh;
+  background-image: url(../img/fondo-madera.jpg);
+  display: flex;
+  margin-top: 0px;
+}
+
+.Titulo-h2 {
+  color: greenyellow;
+  background-color: rgba(92, 92, 92, 0.658);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  
+}
+
+.titulo-contactanos{
+  text-align: center;
+}
+
+.productos-page-img{
+   width: 250px;
+   height: 250px;
+}
+
+
+.productos div img {
+  width: 250px;
+  height: 250px;
+  flex-direction: column;
+  border-radius: 20%;
+  box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+  /* box-shadow: 14px 28px 42px 5px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 14px 14px 12px 5px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 14px 14px 12px 2px rgba(0, 0, 0, 0.69); */
+}
+
+.productos div a {
+  color: red;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.productos div {
+  width: 320px;
+  height: 380px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  display: inline-block;
+}
+
+.productos div img {
+  width: 250px;
+  height: 250px;
+}
+
+.productos div a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 20px;
+  border: solid 3px red;
+}
+
+.Productos-1 {
+  background-color: black;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.productos {
+  margin: 100px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+}
+
+.Games {
+  text-align: center;
+  color: white;
+  display: block;
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1600px;
+  height: auto;
+  float: inline-start;
+  margin: 10px;
+}
+
+.texto {
+  text-align: center;
+  font-size: 1.2rem;
+  height: 150px;
+  width: 650px;
+  margin: 10rem auto;
+}
+
+.Nuestro {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.movil {
+  display: flex;
+  margin-top: -200px;
+  height: 300px;
+  margin: 2rem auto;
+  text-align: center;
+  width: -100;
+}
+
+.trata {
+  text-align: center;
+  background-color: white;
+  top: 200px;
+  left: 200px;
+  height: 400px;
+}
+
+.Nuestro2 .texto-2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+  height: 200px;
+  width: 800px;
+  margin: 10rem auto;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: -300px;
+}
+
+.botonU a {
+  position: absolute;
+  left: 46%;
+  margin-block-start: -200px;
+  color: red;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font: optional;
+  font-size: 1.2rem;
+  border-radius: 20px;
+}
+
+.equipo {
+  color: red;
+  background-color: black;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.equipo2o {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.equipog {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 240px;
+  text-align: center;
+  color: red;
+  font-size: 1.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 20px;
+  height: 120px;
+}
+.equipob {
+  text-align: center;
+  position: relative;
+  top: -40px;
+  left: 10px;
+  color: black;
+  font-size: 1.4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+section .enlace30 {
+  color: red;
+  position: relative;
+  top: -100px;
+  left: 837px;
+  font-size: 1.3rem;
+  background-color: black;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+}
+
+.contratanos {
+  /* color: red; */
+  text-align: center;
+  background-color: black;
+  font-size: 1.7rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+.contratanosya {
+  text-align: center;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100px;
+  max-height: 200px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contratanosbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100px;
+  max-height: 200px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.enlace80 {
+  text-align: center;
+  color: red !important;
+  font-size: 1.4rem;
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+  font-style: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Quienes {
+  color: red;
+  height: 2000px;
+}
+
+.Quienes {
+  text-align: center;
+  width: 100%;
+  height: 85vh;
+  background-image: url(../img/Juegos\ multiple.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.titulon1 {
+  font-size: 27px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  display: flex;
+  margin-left: 50px;
+}
+
+.titulon2 {
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.boton20 {
+  color: white !important;
+  position: absolute;
+  left: 45%;
+  margin-block-start: -250px;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font: optional;
+  font-size: 1.2rem;
+  border-radius: 20px;
+}
+
+.equipo20 {
+  background-color: white;
+}
+
+.contratanosya {
+  font-family: fantasy;
+  justify-content: center;
+}
+
+.Seccioncompleta {
+  background-color: white;
+}
+
+.equipo20 {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 100px;
+  left: -5px;
+}
+
+.equipo30 {
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  top: -10px;
+  left: -20px;
+}
+
+.equipo48 {
+  text-align: center;
+  font-size: 1.2rem;
+  height: -200px;
+  width: 900px;
+  margin: 10rem auto;
+  position: absolute;
+  left: 25%;
+  position: relative;
+  top: -120px;
+  left: -20px;
+}
+
+.workinnosotros {
+  text-align: center;
+  width: 100%;
+  height: 85vh;
+  background-image: url(../img/Juegos\ multiple.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.titulo2 li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.titulo3 li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.titulo40 li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.titulo5 li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.Caja {
+  background-color: white;
+  font-size: 30px;
+}
+
+.texto39 {
+  text-align: center;
+  font-size: 1.2rem;
+  height: -200px;
+  width: 900px;
+  margin: 10rem auto;
+  position: absolute;
+  left: 25%;
+  position: relative;
+  top: -20px;
+  left: -40px;
+}
+
+.aventura {
+  padding: 20px;
+  position: relative;
+  top: 400px;
+  left: 800px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.jugarnow {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  color: greenyellow;
+  background-color: rgba(92, 92, 92, 0.658);
+}
+
+.parrafo {
+  display: flex;
+  justify-content: center;
+  color: greenyellow;
+  background-color: rgba(92, 92, 92, 0.658);
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.titulos202 {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  background-color: rgba(92, 92, 92, 0.658);
+  padding: 20px;  
+}
+.titulo-productos{
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(13, 13, 13, 0.925);
+}
+
+.fotopagina {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  left: -40px;
+}
+
+.fototexto1 {
+  height: 300px;
+  margin: 1rem auto;
+  text-align: center;
+  width: 600px;
+  margin-left: 500px;
+  margin-top: -300px;
+}
+
+.enlace90 {
+  text-align: center;
+  color: red !important;
+  position: relative;
+  font-size: 1.4rem;
+  top: 5px;
+  left: 700px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+  font-style: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.work {
+  font-size: 10px;
+  font-style: normal;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/*-----CARDS-----*/
+.titulo5 {
+  height: 500px;
+}
+
+/*-----PAGINA DE QUIENES SOMOS-----*/
+
+.tramaint {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: greenyellow;
+}
+
+.negro {
+  text-align: center;
+  color: red;
+  height: 100px;
+  margin: 2rem auto;
+  width: 700px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+.empresa2 {
+  text-align: center;
+  color: red;
+  height: 100px;
+  margin: 2rem auto;
+  width: 700px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+.empresa3 {
+  text-align: center;
+  color: red;
+  height: 250px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  display: flex;
+}
+
+.empresa3 p {
+  text-align: center;
+  color: red;
+  margin: 2rem auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  display: flex;
+}
+
+.nav__label img {
+  display: flex;
+  margin-left: -950px;
+  margin-top: -50px;
+}
+
+.juego{
+  transition: all 0.2s ease-in-out;
+}
+
+.juego:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/*-----MEDIA QUERY---*/
+
+.empresa-nosotros{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  padding-left: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 769px) {
+  .empresa-nosotros {
+      padding-right: 40px;
+      padding-left: 40px;
+  }
+}
+
+
+/* Hero */
+@media screen and (min-width: 769px) {
+  .hero {
+    height: 65vh;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero {
+    height: 85vh;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .empresa3 p {
+    text-align: center;
+    color: red;
+    height: 250px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .empresa3 p {
+    text-align: center;
+    color: red;
+    height: 250px;
+    width: 600px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .empresa3 p {
+    text-align: center;
+    color: red;
+    height: 250px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .empresa3 {
+    text-align: center;
+    color: red;
+    height: 300px;
+    width: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 15px;
+    display: flex;
+  }
+}
+
+/*------------INDEX ESCENCIA------------------*/
+
+@media screen and (min-width: 400px) {
+  p .movil {
+    display: flex;
+    margin-top: -400px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .empresa3 {
+    text-align: center;
+    color: red;
+    height: 100px;
+    margin: 2rem auto;
+    width: 130px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 10px;
+    display: flex;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .empresa3 {
+    text-align: center;
+    color: red;
+    height: 300px;
+    margin: 2rem auto;
+    width: 180px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 16px;
+    display: flex;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .empresa3 {
+    text-align: center;
+    color: red;
+    height: 300px;
+    margin: 2rem auto;
+    width: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 15px;
+    display: flex;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .titulo li a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .titulo li a {
+    font-size: 12px;
+  }
+}
+
+/* -CONFIGURACION 479---*/
+@media screen and (max-width: 479px) {
+  .titulo li a {
+    font-size: 12px;
+    display: flex;
+    margin-left: -16px;
+  }
+}
+
+/* -CONFIGURACION 479---*/
+
+@media screen and (max-width: 479px) {
+  .texto {
+    text-align: center;
+    margin-left: -23px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .texto {
+    text-align: center;
+    display: flex;
+    margin-left: -80px;
+    font-size: 0.7rem;
+    height: 150px;
+    width: 400px;
+    margin: 10rem auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .texto img {
+    display: flex;
+    margin-top: -10px;
+    margin-left: 20px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .texto .imagen2 {
+    display: flex;
+    margin-top: 0px;
+    margin-left: -300px;
+    width: 0px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .texto {
+    display: flex;
+    margin-top: 220px;
+    margin-left: 230px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .texto p {
+    display: flex;
+    margin-top: -150px;
+    margin-left: -40px;
+    width: 300px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .texto {
+    display: flex;
+    margin-top: 220px;
+    margin-left: 230px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .watchdogs {
+    display: flex;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .movil {
+    display: flex;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: -300px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .botonU {
+    display: flex;
+    font-size: 2px;
+    margin-top: 230px;
+    margin-top: -100px;
+    position: relative;
+    left: -40px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .botonU {
+    display: flex;
+    font-size: 2px;
+    margin-top: -100px;
+    position: relative;
+    left: -40px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .equipob {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .contratanos {
+    font-size: 20px;
+    /* margin-top: -20px; */
+    /* margin-left: 10px; */
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .contratanosya {
+    font-size: 20px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .Productos-1 {
+    font-size: 30px;
+    margin-top: -100px;
+  }
+}
+/*--------PARRAFO-------*/
+@media screen and (max-width: 479px) {
+  .contratanosya {
+    height: 220px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .Productos-1 {
+    font-size: 24px;
+    /* width: 480px; */
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .watchdogs {
+    display: flex;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .color a img {
+    display: flex;
+    margin-left: 60px;
+    width: 100%;
+    height: 40x;
+    font-size: 0px;
+    min-width: 1px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  footer a img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .Derechos {
+    text-align: center;
+    margin-top: -80px;
+    color: white;
+    height: 200px;
+    min-width: 600px;
+    font-size: 10px;
+  }
+}
+
+/*----DERECHOS DE AUTOR-----*/
+
+@media screen and (max-width: 479px) {
+  h3.Derechos {
+    text-align: center;
+    display: flex;
+    margin-top: -100px;
+    margin-left: -80px;
+    color: black;
+    height: 200px;
+    min-width: 600px;
+    font-size: 1rem;
+  }
+}
+
+/*----------------SOLUCION ESPECIAL--------------*/
+@media screen and (max-width: 479px) {
+  ul.titulo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 20px 20px 20px;
+    margin-left: -300px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  ul.titulo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 20px 20px 20px;
+    margin-left: -350px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  h3.Derechos {
+    text-align: center;
+    display: flex;
+    margin-top: -100px;
+    margin-left: -60px;
+    color: black;
+    height: 200px;
+    min-width: 600px;
+    font-size: 1rem;
+  }
+}
+/*----footer 480--------------*/
+@media screen and (m-width: 480px) {
+  .lista-footer li a img {
+    width: 350px;
+    height: 350px;
+  }
+}
+/*----TITULO 480--------------*/
+
+@media screen and (min-width: 480px) {
+  .titulon1 {
+    display: flex;
+    margin-top: -80px;
+    margin-left: 120px;
+  }
+}
+/*----parrafo de escencia--------------*/
+
+@media screen and (min-width: 480px) {
+  .movil p {
+    display: flex;
+    margin-top: -250px;
+    height: 300px;
+    text-align: center;
+    width: -100;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .equipob {
+    text-align: center;
+    display: flex;
+    margin-top: 80px;
+    color: black;
+    font-size: 0.9rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-bottom: 30px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 479) {
+  .equipog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*--------TITULO--------------*/
+
+@media screen and (max-width: 479px) {
+  .titulon1 {
+    display: flex;
+    margin-top: -80px;
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 479) {
+  ul.lista-footer {
+    font-size: 200px;
+  }
+}
+
+/* -CONFIGURACION 840---*/
+
+@media screen and (max-width: 800px) {
+  .titulo li {
+    text-decoration: none;
+    width: 100%;
+    font-size: 10px;
+    color: white;
+    transition: 0.5s;
+    margin-left: 29px;
+  }
+}
+
+/* -CONFIGURACION 840---*/
+
+@media screen and (max-width: 840px) {
+  .Derechos {
+    color: white;
+    height: 200px;
+    min-width: 600px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .Derechos {
+    color: white;
+    height: 200px;
+    min-width: 600px;
+    font-size: 10px;
+    width: 100%;
+  }
+}
+
+/* -CONFIGURACION 840---*/
+
+@media screen and (max-width: 840px) {
+  .banner {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .watchdogs {
+    display: flex;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .enlace90 {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .Productos-1 {
+    height: 40px;
+  }
+}
+
+/*-----FOOTER-----*/
+
+/*---AJUSTAR EL TAMAÑO DE LOS LOGOS---*/
+
+/* -CONFIGURACION 1100---*/
+
+@media screen and (max-width: 1100px) {
+  .Derechos {
+    color: white;
+    height: 200px;
+    min-width: 600px;
+    font-size: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1669px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1614px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1545px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1478px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+@media screen and (max-width: 1478px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+@media screen and (max-width: 1410px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+@media screen and (max-width: 1410px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+@media screen and (max-width: 1410px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1405px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1341px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 13px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1338px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 13px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1271px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1203px) {
+  .titulo li a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 11px;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+/*-----FOOTER-----*/
+
+/*---BAJAR Y SUBIR EL FOOTER/---*/
+
+footer {
+  background-color: #515151;
+}
+
+/*---TAMAÑO DE LOS DERECHOS DE AUTOR Y POSICION./---*/
+
+.Derechos {
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/*---POSICIONAMIENTO DE LEGALES.---*/
+
+.rojo {
+  color: red;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  align-items: center;
+}
+
+/*---POSICIONES Y CAMBIO DE COLORES DEL FOOTER/---*/
+
+.color {
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #515151;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #515151;
+  margin-top: 40px;
+  min-height: 280px;
+  width: 100%;
+}
+
+.body {
+  overflow-x: hidden;
+}
+
+.lista-footer {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 4em 0;
+}
+
+.lista-footer li {
+  display: inline-block;
+  padding: 0 0.1em;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding: 4em 0;
+}
+
+.lista-footer li a img {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 479px) {
+  .lista-footer li {
+    padding: 0 1em;
+  }
+
+  .lista-footer li a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 480) {
+  .activision p {
+    color: red;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .lista-footer li {
+    padding: 0 2em;
+  }
+  .lista-footer li a img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .lista-footer li {
+    padding: 0 3em;
+  }
+  .lista-footer li a img {
+    width: 60px;
+    height: 60px;
+  }
+}

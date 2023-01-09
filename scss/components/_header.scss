@@ -1,0 +1,153 @@
+/*-----HEADER------*/
+header {
+    background-color: rgba(92, 92, 92, 0.658);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 99;
+  }
+  
+  header a h1 span {
+    color: white;
+  }
+  
+  header nav ul li {
+    margin: 10px;
+  }
+  
+  header nav ul {
+    display: flex;
+    margin: 5px 10px 5px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .titulo li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+  }
+  
+  header nav ul a:hover{
+    color: red;
+  }
+  .titulo2 {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .titulo h1 {
+    color: yellow;
+  }
+  
+  .CONTACTANOS {
+    text-align: center;
+    display: flex;
+    margin-top: 120px;
+  }
+  
+  .formularios-gestion {
+    display: flex;
+    margin-top: 270px;
+    margin-left: -760px;
+  }
+  
+  .nombre-1 {
+    color: #07f9a2;
+    margin-top: -30px;
+    background-color: rgba(92, 92, 92, 0.658);
+  }
+  
+  .nombre-2 {
+    color: #07f9a2;
+    background-color: rgba(92, 92, 92, 0.658);
+  }
+  
+  .nombre-3 {
+    color: #07f9a2;
+    background-color: rgba(92, 92, 92, 0.658);
+  }
+  
+  .general {
+    color: #07f9a2;
+    background-color: rgba(92, 92, 92, 0.658);
+  }
+  
+  .genero {
+    color: greenyellow;
+    margin-top: 20px;
+    background-color: rgba(92, 92, 92, 0.658);
+  }
+  
+  .contanos-mas {
+    color: greenyellow;
+    margin-top: 20px;
+    background-color: rgba(92, 92, 92, 0.658);
+  }
+  
+  .seleccion {
+    background-color: rgba(92, 92, 92, 0.658);
+  }
+  .h3 {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .area34 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 130px;
+  }
+  
+  .juegos a {
+    background-color: red;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 5%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .publicidad {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+    position: relative;
+    left: -150px;
+    text-align: center;
+    margin-top: -300px;
+  }
+  
+  .column {
+    height: 220px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .parrafo4 {
+    margin: 0;
+    padding: 0 1rem;
+  }

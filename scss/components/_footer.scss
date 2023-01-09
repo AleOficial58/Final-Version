@@ -1,0 +1,98 @@
+/*-----FOOTER-----*/
+
+
+
+/*---BAJAR Y SUBIR EL FOOTER/---*/
+
+footer {
+    background-color: #515151;
+  
+  }
+  
+  /*---TAMAÑO DE LOS DERECHOS DE AUTOR Y POSICION./---*/
+  
+  .Derechos {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /*---POSICIONAMIENTO DE LEGALES.---*/
+  
+  .rojo {
+    color: red;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+  }
+  
+  /*---POSICIONES Y CAMBIO DE COLORES DEL FOOTER/---*/
+  
+  .color {
+    
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #515151;
+    margin-top: 40px;
+    min-height: 280px;
+    width: 100%;
+  }
+  
+  .body {
+    overflow-x: hidden;
+  }
+  
+  .lista-footer {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+      padding: 4em 0;
+      font-size: 40px;
+  }
+  
+  .lista-footer li {
+    display: inline-block;
+    padding: 0 0.1em;
+  }
+  
+  .lista-footer li a img{
+      width: 50px;
+      height: 50px;
+    }
+  
+  @media screen and (min-width: 479px) {
+      .lista-footer li {
+          padding: 0 1em;
+      }
+  
+      .lista-footer li a img{
+          width: 30px;
+          height: 30px;
+        }
+  }
+  
+  @media screen and (min-width: 840px) {
+      .lista-footer li {
+          padding: 0 2em;
+      }
+      .lista-footer li a img{
+          width: 40px;
+          height: 40px;
+        }
+    }
+  
+    @media screen and (min-width: 1100px) {
+      .lista-footer li {
+          padding: 0 3em;
+      }
+      .lista-footer li a img{
+          width: 60px;
+          height: 60px;
+        }
+    }
+  
+  /*! HOVER*/
+  
+    /*!-------TRANSITION-------*/

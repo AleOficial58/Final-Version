@@ -1,0 +1,505 @@
+/*-----MEDIA QUERY---*/
+
+@media screen and (max-width: 1024px) {
+    .titulo li a {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .titulo li a {
+      font-size: 12px;
+    }
+  }
+  
+  
+  /* -CONFIGURACION 479---*/
+  
+  @media screen and (max-width: 479px) {
+    .titulo li a {
+      font-size: 12px;
+      display: flex;
+      margin-left: -16px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .texto {
+      text-align: center;
+      display: flex;
+      margin-left: -80px;
+      font-size: 0.7rem;
+      height: 150px;
+      width: 400px;
+      margin: 10rem auto;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .texto img {
+      display: flex;
+      margin-top: -10px;
+      margin-left: 30px;
+      width: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .texto .imagen2 {
+      display: flex;
+      margin-top: 0px;
+      margin-left: -300px;
+      width: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .texto {
+      display: flex;
+      margin-top: 200px;
+      margin-left: 230px;
+      width: 250px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .texto p {
+      display: flex;
+      margin-top: -150px;
+      margin-left: -40px;
+      width: 300px;
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .watchdogs {
+      display: flex;
+      margin-top: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .movil P{
+      display: flex;
+      margin-left: 20px;
+      font-size: 15px;
+      margin-top: -300px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .botonU {
+      display: flex;
+      font-size: 2px;
+      margin-top: -100px;
+      position: relative;
+      left: -40px;
+    }
+  }
+  
+  @media screen and (min-width: 480px) {
+    .botonU {
+      display: flex;
+      font-size: 2px;
+      margin-top: -100px;
+      position: relative;
+      left: -40px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .equipob {
+      font-size: 13px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .contratanos {
+      font-size: 20px;
+      margin-top: -20px;
+      margin-left: 20px;
+    }
+  }
+    /*--------PARRAFO-------*/
+  @media screen and (max-width: 479px) {
+    .contratanosya {
+      height: 220px;
+      margin: 2rem auto;
+      display: flex;
+      margin-left: -20px;
+      margin-top: 40px;
+      font-size: 18px;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 479px) {
+    .Productos-1 {
+      font-size: 24px;
+      margin-top: -80px;
+      margin-left: 5  20px;
+      width: 480px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .watchdogs {
+      display: flex;
+      margin-top: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .color a img {
+      display: flex;
+      margin-left: 60px;
+      width: 100%;
+      height: 40x;
+      font-size: 0px;
+      min-width: 1px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    footer a img {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  
+  /*----DERECHOS DE AUTOR-----*/
+  
+  @media screen and (max-width: 479px) {
+    h3.Derechos {
+      text-align: center;
+      display: flex;
+      margin-top: -100px;
+      margin-left: -80px;
+      color: black;
+      height: 200px;
+      min-width: 600px;
+      font-size: 1rem;
+    }
+  }
+  
+    /*----------------SOLUCION ESPECIAL--------------*/
+  @media screen and (max-width: 479px) {
+    ul.titulo{
+      width:100%;
+      display: flex;
+      justify-content: flex-start;
+      margin: 20px 20px 20px 20px;
+      margin-left: -300px;
+      
+      
+      }
+    }
+  
+    @media screen and (min-width: 480px) {
+      
+        ul.titulo{
+          width:100%;
+          display: flex;
+          justify-content: flex-start;
+          margin: 20px 20px 20px 20px;
+          margin-left: -350px;
+          
+          
+          }
+        }
+  
+        @media screen and (min-width: 480px) {
+          h3.Derechos {
+            text-align: center;
+            display: flex;
+            margin-top: -100px;
+            margin-left: -60px;
+            color: black;
+            height: 200px;
+            min-width: 600px;
+            font-size: 1rem;
+          }
+        }
+    /*----footer 480--------------*/
+        @media screen and (m-width: 480px) {
+          .lista-footer li a img {
+              width: 350px;
+              height: 350px;
+            }
+      }
+    /*----TITULO 480--------------*/
+  
+        @media screen and (min-width: 480px) {
+          .titulon1{
+            display: flex;
+            margin-top: -80px;
+            margin-left: 120px;
+          }
+        }
+  /*----parrafo de escencia--------------*/
+  
+        @media screen and (min-width: 480px) {
+          .movil p{
+              display: flex;
+              margin-top: -250px;
+              height: 300px;
+              text-align: center;
+              width: -100;
+            }
+          }
+  
+          @media screen and (min-width: 480px) {
+            .equipob{
+              
+                text-align: center;
+                display: flex;
+                margin-top: 80px;
+                color: black;
+                font-size: 0.9rem;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                margin-bottom: 30px;
+                height: 200px;
+              }
+            }
+          
+              @media screen and (min-width: 479) {
+                .equipog{
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+  
+                }
+              }
+          
+      /*---------------{
+  
+          }
+        }
+  /*--------TITULO--------------*/
+  
+    @media screen and (max-width: 479px) {
+          .titulon1{
+            display: flex;
+            margin-top: -80px;
+            margin-left: 120px;
+          }
+        }
+        
+        @media screen and (max-width: 479) {
+          .contratanosya{
+              position: relative;
+              left: 390px;
+          }
+          }
+        
+          @media screen and (max-width: 479) {
+            ul.lista-footer{
+              font-size: 200px;
+            }
+          }
+  
+        /* -CONFIGURACION 840---*/
+  
+  @media screen and (max-width: 800px) {
+    .titulo li  {
+      text-decoration: none;
+      width: 100%;
+      font-size: 10px;
+      color: white;
+      transition: 0.5s;
+      margin-left: 29px;
+    }
+      }      
+  
+  
+  /* -CONFIGURACION 840---*/
+  
+  @media screen and (max-width: 840px) {
+    .Derechos {
+      color: white;
+      height: 200px;
+      min-width: 600px;
+      font-size: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 840px) {
+    .banner {
+      display: flex;
+      margin-left: 20px;
+      margin-top: 400px;
+    }
+  }
+  
+  @media screen and (max-width: 840px) {
+    .watchdogs {
+      display: flex;
+      margin-top: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 840px) {
+    .enlace90 {
+      display: flex;
+      align-items: flex-start;
+    }
+  }
+  
+  @media screen and (max-width: 840px) {
+    .Productos-1 {
+      height: 40px;
+    }
+  }
+  
+  /* -CONFIGURACION 1100---*/
+  
+  @media screen and (max-width: 1100px) {
+    .Derechos {
+  
+      color: white;
+      height: 200px;
+      min-width: 600px;
+      font-size: 10px;
+      width: 100%;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 1669px) {
+    .titulo li a {
+      text-decoration: none;
+      width: 100%;
+      font-size: 18px;
+      color: white;
+      transition: 0.5s;
+    }
+      }
+  
+      @media screen and (max-width: 1614px) {
+        .titulo li a {
+          text-decoration: none;
+          width: 100%;
+          font-size: 17px;
+          color: white;
+          transition: 0.5s;
+        }
+          }
+  
+          @media screen and (max-width: 1545px) {
+            .titulo li a {
+              text-decoration: none;
+              width: 100%;
+              font-size: 16px;
+              color: white;
+              transition: 0.5s;
+            }
+              }
+  
+        @media screen and (max-width: 1478px) {
+                .titulo li a {
+                  text-decoration: none;
+                  width: 100%;
+                  font-size: 17px;
+                  color: white;
+                  transition: 0.5s;
+                }
+                  }
+        @media screen and (max-width: 1478px) {
+                    .titulo li a {
+                      text-decoration: none;
+                      width: 100%;
+                      font-size: 16px;
+                      color: white;
+                      transition: 0.5s;
+                    }
+                      }
+  
+      @media screen and (max-width: 1480px) {
+                        .titulo li a {
+                          text-decoration: none;
+                          width: 100%;
+                          font-size: 15px;
+                          color: white;
+                          transition: 0.5s;
+                        }
+                          }         
+      @media screen and (max-width: 1410px) {
+                            .titulo li a {
+                              text-decoration: none;
+                              width: 100%;
+                              font-size: 16px;
+                              color: white;
+                              transition: 0.5s;
+                            }
+                              }
+      @media screen and (max-width: 1410px) {
+                                .titulo li a {
+                                  text-decoration: none;
+                                  width: 100%;
+                                  font-size: 15px;
+                                  color: white;
+                                  transition: 0.5s;
+                                }
+                                  }
+      @media screen and (max-width: 1410px) {
+                                    .titulo li a {
+                                      text-decoration: none;
+                                      width: 100%;
+                                      font-size: 15px;
+                                      color: white;
+                                      transition: 0.5s;
+                                    }
+      @media screen and (max-width: 1405px) {
+                                      .titulo li a {
+                                        text-decoration: none;
+                                        width: 100%;
+                                        font-size: 14px;
+                                        color: white;
+                                        transition: 0.5s;
+                                      }
+                                        }     
+      @media screen and (max-width: 1341px) {
+                                          .titulo li a {
+                                            text-decoration: none;
+                                            width: 100%;
+                                            font-size: 13px;
+                                            color: white;
+                                            transition: 0.5s;
+                                          }
+                                            }
+      @media screen and (max-width: 1338px) {
+                                              .titulo li a {
+                                                text-decoration: none;
+                                                width: 100%;
+                                                font-size: 13px;
+                                                color: white;
+                                                transition: 0.5s;
+                                              }
+                                                }
+      @media screen and (max-width: 1271px) {
+                                                  .titulo li a {
+                                                    text-decoration: none;
+                                                    width: 100%;
+                                                    font-size: 12px;
+                                                    color: white;
+                                                    transition: 0.5s;
+                                                  }
+                                                    }
+      @media screen and (max-width: 1203px) {
+                                                      .titulo li a {
+                                                        text-decoration: none;
+                                                        width: 100%;
+                                                        font-size: 11px;
+                                                        color: white;
+                                                        transition: 0.5s;
+                                                      }
+                                                        }                                                                                                                                          
+                                                                
+  /*-----FOOTER-----*/
